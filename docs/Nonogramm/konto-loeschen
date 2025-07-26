@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Konto löschen – Nonogramm</title>
+</head>
+<body>
+  <h1>Konto und Daten löschen</h1>
+  <p>Wenn du dein Konto und alle gespeicherten Daten (Spielstände, Profil, Fortschritt) aus der App <strong>Nonogramm</strong> löschen möchtest, sende bitte eine E-Mail an:</p>
+
+  <p><a href="mailto:contact.maximess@gmail.com">contact.maximess@gmail.com</a></p>
+
+  <p>Bitte gib in deiner E-Mail die bei Google verwendete E-Mail-Adresse an (falls vorhanden), damit wir dein Profil eindeutig zuordnen können.</p>
+
+  <h2>Welche Daten werden gelöscht?</h2>
+  <ul>
+    <li>Spielstand (Level, Tipps, Fortschritt)</li>
+    <li>Spielername und UID</li>
+    <li>Cloud-Profil bei Google Firebase</li>
+  </ul>
+
+  <h2>Wie lange dauert die Löschung?</h2>
+  <p>Die vollständige Löschung erfolgt in der Regel innerhalb von 7 Tagen nach Anfrage.</p>
+</body>
+</html>
