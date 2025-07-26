@@ -35,9 +35,12 @@
   </p>
 
   <h2>2. Erhobene Daten</h2>
-  <p><strong>Spielstände & Einstellungen:</strong> werden lokal auf dem Gerät gespeichert (SharedPreferences).</p>
 
-  <p><strong>Google Play-Dienste:</strong> Wenn Sie sich mit Ihrem Google-Konto anmelden, werden über die Google Play Spiele-Dienste Informationen wie Nutzer-ID, Spielername, Erfolge und ggf. Cloud-Spielstände verarbeitet. Diese Daten werden von Google verwaltet und unterliegen deren Datenschutzrichtlinien. Weitere Informationen finden Sie unter:  
+  <p><strong>Spielstände & Einstellungen:</strong> werden lokal auf dem Gerät gespeichert (SharedPreferences). Dazu zählen z. B. Level-Fortschritt, Tipp-Anzahl, Aufgabenstatus und gewählte Einstellungen.</p>
+
+  <p><strong>Firebase-Authentifizierung:</strong> Beim ersten Start der App wird ein anonymer Zugang über Firebase erstellt, bei dem eine pseudonyme Nutzer-ID (UID) erzeugt wird. Optional kann ein Login mit Google erfolgen. Dabei werden ggf. Name, E-Mail-Adresse und ID an Firebase übermittelt. Diese Daten werden zur Wiederherstellung des Spielstands oder zur Synchronisierung verwendet.</p>
+
+  <p><strong>Google Play Spiele-Dienste:</strong> Wenn Sie sich mit einem Google-Konto anmelden, können über Google Play Games Informationen wie Nutzer-ID, Spielername, Erfolge und Cloud-Spielstände verarbeitet werden. Diese Dienste werden von Google bereitgestellt und unterliegen deren Datenschutzrichtlinien:  
   <a href="https://policies.google.com/privacy?hl=de" target="_blank">Google Datenschutz</a></p>
 
   <p><strong>Werbung:</strong> Die App verwendet Google AdMob, um nicht-personalisierte Bannerwerbung anzuzeigen. Dabei kann Google anonyme Nutzungsdaten erheben, etwa zur Geräteinformation oder zur Anzeigehäufigkeit. Die App zeigt keine personalisierte Werbung.</p>
